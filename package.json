@@ -18,6 +18,9 @@
   },
   "homepage": "https://github.com/onezer00/binary-to-decimal#readme",
   "dependencies": {
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@material-ui/core": "^5.0.0-beta.5",
     "next": "^11.1.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
