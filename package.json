@@ -1,0 +1,25 @@
+{
+  "name": "binary-to-decimal",
+  "version": "1.0.0",
+  "description": "Este projeto tem como intuito desenvolver aprendizado, assim como disponibilizar um ambiente prático para conversão de código binário em números decimais.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onezer00/binary-to-decimal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/onezer00/binary-to-decimal/issues"
+  },
+  "homepage": "https://github.com/onezer00/binary-to-decimal#readme",
+  "dependencies": {
+    "next": "^11.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
