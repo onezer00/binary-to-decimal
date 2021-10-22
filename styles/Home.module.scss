@@ -1,0 +1,97 @@
+.header {
+  background: #fff;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 20px;
+  text-align: center !important;
+  height: 80px;
+  position: relative
+}
+
+.header h1 {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  text-shadow: 2px 2px #c9c9c9;
+}
+
+.formulario {
+  position: relative;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: inherit;
+  font-size: 20px;
+  text-align: center !important;
+  width: 40%;
+  height: 400px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 20%;
+}
+
+.binaryImput {
+  position: absolute;
+  display: block;
+  margin: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10%;
+}
+
+.binaryImput span {
+  font-family: inherit;
+  font-size: 35px;
+  text-shadow: 2px 2px #c9c9c9;
+}
+
+.binaryImput input {
+  margin-top: 38px;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  height: 28px
+}
+
+.binaryImput button {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-size: 20px;
+  text-shadow: 2px 2px #c9c9c9;
+  width: 150px;
+  height: 35px;
+  margin-top: 10px;
+  background-color: rgb(245, 240, 240);
+}
+
+.decimalOutput {
+  position: absolute;
+  display: block;
+  margin: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  margin-top: 200px;
+}
+
+.decimalOutput span {
+  font-family: inherit;
+  font-size: 25px;
+  text-shadow: 2px 2px #c9c9c9;
+}
+
+.decimalOutput input {
+  position: absolute;
+  display: block;
+  margin: 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  width: 200px;
+  height: 28px
+}
