@@ -16,6 +16,8 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
   text-shadow: 2px 2px #c9c9c9;
+  padding-top: 5px;
+  padding-bottom: 10px;
 }
 
 .formulario {
@@ -24,14 +26,14 @@
   font-family: inherit;
   font-size: 20px;
   text-align: center !important;
-  width: 40%;
+  width: 400px;
   height: 400px;
   margin: 0;
   top: 50%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  margin-top: 20%;
+  margin-top: 220px;
 }
 
 .binaryImput {
@@ -44,10 +46,20 @@
   margin-top: 10%;
 }
 
-.binaryImput span {
+.titleInput {
+  display: block;
   font-family: inherit;
   font-size: 35px;
   text-shadow: 2px 2px #c9c9c9;
+  background-color: rgb(80, 159, 233);
+  width: 100%;
+  height: 55px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  margin-top: -5%;
+  padding-top: 5px;
 }
 
 .binaryImput input {
@@ -74,13 +86,23 @@
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  margin-top: 200px;
+  margin-top: 50px;
 }
 
-.decimalOutput span {
+.titleOutput {
+  display: block;
   font-family: inherit;
-  font-size: 25px;
+  font-size: 35px;
   text-shadow: 2px 2px #c9c9c9;
+  background-color: rgb(80, 159, 233);
+  width: 100%;
+  height: 55px;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  margin-top: 40%;
+  padding-top: 5px;
 }
 
 .decimalOutput input {
@@ -91,7 +113,6 @@
   margin-right: -50%;
   transform: translate(-50%, -50%);
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-  margin-top: 20px;
   width: 200px;
   height: 28px
 }

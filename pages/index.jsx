@@ -57,14 +57,15 @@ function FormComponent() {
                 <div className={styles.header}>
                     <h1>Binary to Decimal Converter</h1>
                 </div>
+                <script data-ad-client="ca-pub-8874675062519550" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
 
             <main>
                 <div className={styles.formulario}>
                     {errorMessage && <span style={{ color: 'red' }}>{errorMessage}</span>}
                     <br />
+                    <div className={styles.titleInput}>Binary Input</div>
                     <div className={styles.binaryImput}>
-                        <span>Binary Input</span>
                         <div className={styles.binaryImput}>
                             <input
                             autoComplete="off"
@@ -77,14 +78,16 @@ function FormComponent() {
                             <button type="submit">Convert</button>
                         </div>
                     </div>
+                    <div className={styles.titleOutput}>
+                        Decimal Output
                     <div className={styles.decimalOutput}>
-                        <span>Decimal Output</span>
                         <input
                             type="text"
                             name="decimal"
                             value={decimalText}
                             disabled
                         />
+                    </div>
                     </div>
                 </div>
             </main>
