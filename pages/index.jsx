@@ -60,7 +60,8 @@ function FormComponent() {
                 <script data-ad-client="ca-pub-8874675062519550" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
 
-            <main>
+
+            <main className={styles.pageForm}>
                 <div className={styles.formulario}>
                     {errorMessage && <span style={{ color: 'red' }}>{errorMessage}</span>}
                     <br />
@@ -91,6 +92,12 @@ function FormComponent() {
                     </div>
                 </div>
             </main>
+            <footer className={styles.footer}>
+                Designed
+                <span>💜</span> by
+                <a href="https://github.com/onezer00" target="_blank">GitHub </a> || or @
+                <a href="https://www.instagram.com/oner.oficial/" target="_blank">Instagran</a>
+            </footer>
         </form>
     )
 }

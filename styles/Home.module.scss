@@ -1,29 +1,38 @@
 .header {
-  background: #fff;
+  background: #002;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-  font-family: inherit;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
   text-align: center !important;
   height: 80px;
-  position: relative
+  position: relative;
+  z-index: 10;
+}
+
+.pageForm {
+  display: flex;
+  background: #002;
 }
 
 .header h1 {
-  margin: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
-  text-shadow: 2px 2px #c9c9c9;
-  padding-top: 5px;
-  padding-bottom: 10px;
+  font-size: 4rem;
+  min-height: 36.25rem;
+  min-width: 25rem;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: rgba(255,255,255,0.8);
+  line-height: 1;
+  margin: 0 0 0.125em;
+  letter-spacing: 0.01em;
+  text-align: center;
+  padding-top: 2rem;
+  font-weight: bold;
 }
 
 .formulario {
   position: relative;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
-  font-family: inherit;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
   text-align: center !important;
   width: 400px;
@@ -48,7 +57,7 @@
 
 .titleInput {
   display: block;
-  font-family: inherit;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 35px;
   text-shadow: 2px 2px #c9c9c9;
   background-color: rgb(80, 159, 233);
@@ -91,7 +100,7 @@
 
 .titleOutput {
   display: block;
-  font-family: inherit;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 35px;
   text-shadow: 2px 2px #c9c9c9;
   background-color: rgb(80, 159, 233);
@@ -115,4 +124,15 @@
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   width: 200px;
   height: 28px
+}
+
+.footer {
+  background: #262643;
+  min-height: 2rem;
+  text-align: center;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.875rem;
+  line-height: 1.2rem;
+  padding: 0.4rem 0;
+  display: block;
 }
