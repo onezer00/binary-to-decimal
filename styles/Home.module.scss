@@ -138,7 +138,6 @@
 
 .titleInput {
   display: block;
-  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 35px;
   text-shadow: 2px 2px #c9c9c9;
   background-color: rgb(80, 159, 233);
@@ -148,21 +147,23 @@
   top: 50%;
   left: 50%;
   margin-right: -50%;
-  margin-top: -5%;
+  margin-top: 40px;
   padding-top: 5px;
 }
 
 .binaryImput input {
-  margin-top: 38px;
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 20px;
+  margin-top: 38px;
   width: 200px;
   height: 28px
 }
 
 .binaryImput button {
   box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
   font-size: 20px;
-  text-shadow: 2px 2px #c9c9c9;
   width: 150px;
   height: 35px;
   margin-top: 10px;
@@ -170,6 +171,9 @@
 }
 
 .decimalOutput {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 20px;
   position: absolute;
   display: block;
   margin: 0;
@@ -180,8 +184,10 @@
 }
 
 .titleOutput {
-  display: block;
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 20px;
+  display: block;
   font-size: 35px;
   text-shadow: 2px 2px #c9c9c9;
   background-color: rgb(80, 159, 233);
@@ -196,16 +202,19 @@
 }
 
 .decimalOutput input {
+  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-size: 20px;
   position: absolute;
   display: block;
   margin: 0;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%);
-  box-shadow: 1px 2px 10px rgba(0, 0, 0, 0.1);
   width: 200px;
   height: 28px;
   color: #fff;
+  text-align: center;
 }
 
 .footer {
