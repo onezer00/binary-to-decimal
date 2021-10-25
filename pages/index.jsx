@@ -50,7 +50,7 @@ function FormComponent() {
     }
     return (
         
-        <form onSubmit={onFormSubmit}>
+        <form onSubmit={onFormSubmit} className={styles.background}>
             <Head>
                 <title>Binary to Decimal</title>
                 <meta name="description" content="Convert binary to decimal API" />
@@ -60,7 +60,15 @@ function FormComponent() {
                 <script data-ad-client="ca-pub-8874675062519550" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
             </Head>
 
-
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            
             <main className={styles.pageForm}>
                 <div className={styles.formulario}>
                     {errorMessage && <span style={{ color: 'red' }}>{errorMessage}</span>}
