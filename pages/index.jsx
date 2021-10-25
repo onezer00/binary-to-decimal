@@ -1,4 +1,3 @@
-import Head from 'next/head'
 import React, { useState } from 'react';
 import styles from '../styles/Home.module.scss';
 
@@ -8,6 +7,7 @@ function FormComponent() {
     const [errorMessage, setErrorMessage] = useState('')
 
     const onFormSubmit = e => {
+        console.log(e);
         /**
          * Prevenindo que a nossa aplicação recarregue
          */
@@ -49,14 +49,13 @@ function FormComponent() {
     return (
         
         <form onSubmit={onFormSubmit} className={styles.background}>
-            <Head>
+            <div>
                 <title>Binary to Decimal</title>
                 <meta name="description" content="Convert binary to decimal API" />
                 <div className={styles.header}>
                     <h1>Binary to Decimal Converter</h1>
                 </div>
-                <script data-ad-client="ca-pub-8874675062519550" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-            </Head>
+            </div>
 
             <ul>
                 <li></li>
