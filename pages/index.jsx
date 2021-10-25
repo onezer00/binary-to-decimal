@@ -8,7 +8,6 @@ function FormComponent() {
     const [errorMessage, setErrorMessage] = useState('')
 
     const onFormSubmit = e => {
-        console.log(e);
         /**
          * Prevenindo que a nossa aplicação recarregue
          */
