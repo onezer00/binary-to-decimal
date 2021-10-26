@@ -70,7 +70,9 @@ function FormComponent() {
                 <div className={styles.formulario}>
                     {errorMessage && <span style={{ color: 'red' }}>{errorMessage}</span>}
                     <br />
-                    <div className={styles.titleInput}>Binary Input</div>
+                    <div className={styles.titleText}>
+                        Binary Input
+                        </div>
                     <div className={styles.binaryImput}>
                         <div className={styles.binaryImput}>
                             <input
@@ -81,10 +83,12 @@ function FormComponent() {
                             value={binaryText}
                             onChange={e => setBinaryText(e.target.value)}
                             />
-                            <button type="submit">Convert</button>
+                            <div>
+                                <button type="submit">Convert</button>
+                            </div>
                         </div>
                     </div>
-                    <div className={styles.titleOutput}>
+                    <div className={styles.titleText}>
                         Decimal Output
                     <div className={styles.decimalOutput}>
                         <input
